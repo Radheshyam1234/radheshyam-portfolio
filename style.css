@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #7C3AED;
+    --primary-color:brown;
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
 }
@@ -81,8 +81,8 @@ nav ul li:hover{
 }
 
 .link-primary {
-    background-color:  #40407a;
-    border-radius: 0.5rem;
+     background-color:var(--primary-color);
+    border-radius: 1rem;
     color: white;
     display: block;
     max-width: 140px;
@@ -91,11 +91,15 @@ nav ul li:hover{
 
 .link-secondary {
    
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     border: 1px solid blueviolet ;
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+}
+.link-secondary:hover{
+    background-color: brown;
+    color:white;
 }
 
 
@@ -118,6 +122,10 @@ nav ul li:hover{
     margin: auto;
     max-width: 600px;
 }
+.container h1{
+    color:var(--primary-color)
+}
+
 
 /* footer */
 
@@ -154,6 +162,13 @@ align-items: center;
     padding: 0rem 0.5rem;
 }
 
+.list-non-bullet h1{
+    color:chocolate
+}
+.list-non-bullet small{
+    color:forestgreen
+}
+
 /** projects **/
 .showcase-list {
     padding: 2rem;
@@ -163,4 +178,9 @@ align-items: center;
 .showcase-blog {
     padding-bottom: 6rem;
 }
+
+
+
+
+
 
